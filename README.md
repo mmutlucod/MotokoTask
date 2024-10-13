@@ -19,10 +19,13 @@ To run this project, you need to have the [Dfinity SDK](https://internetcomputer
    cd hesap-makinesi
 
 2. Start the Dfinity background services:
+    ```bash
     dfx start --background
 3. Deploy the project:
+    ```bash
     dfx deploy
 4. To test the functions, use the following commands:
+    ```bash
     dfx canister call hesap_makinesi add '(5)'
     dfx canister call hesap_makinesi subtract '(2)'
     dfx canister call hesap_makinesi multiply '(3)'
